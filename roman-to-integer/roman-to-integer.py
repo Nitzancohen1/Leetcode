@@ -12,12 +12,3 @@ class Solution(object):
             if i+2 == len(s):
                 num += roman[s[i+1]]
         return num
-        
-        
-        
-        
-        """
-        :type s: str
-        :rtype: int
-        """
-        
