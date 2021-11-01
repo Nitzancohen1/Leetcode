@@ -4,10 +4,3 @@ class Solution(object):
             for j in range(len(nums)):
                 if nums[i]+nums[j]==target and i!=j:
                     return [i,j]
-            
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        
