@@ -5,6 +5,6 @@ class Solution(object):
         :type high: int
         :rtype: int
         """
-        if high%2==0 and low%2==0:
+        if high%2 == 0 and low%2 == 0:
             return (high-low)/2
         return (high-low)/2 +1
